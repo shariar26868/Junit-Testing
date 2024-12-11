@@ -1,17 +1,22 @@
 # Junit-Testing
 /*
- * Automation Project: Web Form Testing
- * 
- * Overview:
- * This project automates the process of testing two web forms using Selenium WebDriver and JUnit.
- */
+Automation Project: Web Form Testing
 
-// Prerequisites
-/*
- * 1. Install Java Development Kit (JDK) 8 or higher.
- * 2. Set up Maven for dependency management.
- * 3. Add the following Maven dependencies to the pom.xml:
- */
+Overview
+
+This project automates the process of testing two web forms using Selenium WebDriver and JUnit.
+
+Prerequisites
+
+Software Requirements
+
+Java Development Kit (JDK): Version 8 or higher.
+
+Maven: For dependency management.
+
+Maven Dependencies
+
+Add the following dependencies to your pom.xml:
 
 <dependencies>
     <dependency>
@@ -26,47 +31,68 @@
     </dependency>
 </dependencies>
 
-// Automation Steps for Practice Web Form
-/*
- * 1. Navigate to the form URL: https://www.digitalunite.com/practice-webform-learners
- * 2. Fill all required fields (e.g., First Name, Last Name, etc.).
- * 3. Upload a file (max size: 2MB).
- * 4. Submit the form.
- * 5. Assert that the success message: "Thank you for your submission!" is displayed.
- */
+Automation Steps
 
-// Automation Steps for Guest Registration Form
-/*
- * 1. Navigate to the form URL: https://demo.wpeverest.com/user-registration/guest-registration-form/
- * 2. Fill the following fields:
- *    - Firstname, Lastname, Email, Gender, Date of Birth, Nationality, Phone.
- *    - Country: Select "Bangladesh".
- * 3. Agree to the Terms & Conditions checkbox.
- * 4. Submit the form.
- * 5. Assert that the registration was successful.
- */
+Practice Web Form
 
-// Running Tests
-/*
- * 1. Open the project in your preferred IDE.
- * 2. Run the JUnit tests:
- *    - Each test is annotated with @Test and @Order.
- * 3. Monitor the browser interactions.
- * 4. Check the console output for validation of success messages.
- */
+Navigate to the form URL: Practice Web Form.
 
-// Troubleshooting
-/*
- * Common issues and their resolutions:
- * 
- * 1. Element Not Found:
- *    - Use WebDriverWait to handle delayed loading elements.
- *    - Inspect the webpage to confirm element locators.
- * 
- * 2. Driver Mismatch:
- *    - Ensure that the browser and driver versions match.
- *    - Update the driver and add it to the PATH if needed.
- */
+Input all required fields, such as First Name, Last Name, etc.
+
+Upload a file (Maximum size: 2MB).
+
+Submit the form.
+
+Assert that the success message: "Thank you for your submission!" is displayed.
+
+Guest Registration Form
+
+Navigate to the form URL: Guest Registration Form.
+
+Input the following fields:
+
+First Name, Last Name, User Email, Gender, Date of Birth, Nationality, and Phone.
+
+Select "Bangladesh" for Country.
+
+Agree to the Terms & Conditions checkbox.
+
+Submit the form.
+
+Assert that the registration is successful.
+
+Running Tests
+
+Open the project in your preferred IDE.
+
+Run the JUnit tests:
+
+Each test is annotated with @Test and @Order.
+
+Monitor browser interactions during the test execution.
+
+Check the console output for validation of success messages.
+
+Troubleshooting
+
+Common Issues
+
+Element Not Found:
+
+Use WebDriverWait to handle delayed loading elements.
+
+Inspect the webpage to confirm element locators are correct.
+
+Driver Mismatch:
+
+Ensure that the browser and WebDriver versions match.
+
+Update the WebDriver and add it to the system PATH if necessary.
+
+Notes
+
+For detailed documentation, refer to the official Selenium WebDriver Documentation and JUnit 5 User Guide.
+
 
 
 
