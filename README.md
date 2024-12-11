@@ -2,10 +2,11 @@
 
 ## Overview
 This project automates two web forms using Selenium and JUnit.
+### Web Forms 1. **Practice Web Form**: [Practice Webform for Learners](https://www.digitalunite.com/practice-webform-learners) 2. **Guest Registration Form**: [Guest Registration Form](https://demo.wpeverest.com/user-registration/guest-registration-form/)
 
 ## Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- Maven
+- Java Development Kit (JDK) 7 or higher
+- Gradle
 - Selenium WebDriver
 - ChromeDriver (or other browser drivers)
 - An IDE (e.g., IntelliJ IDEA, Eclipse)
