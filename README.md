@@ -1,5 +1,7 @@
 # Automation Project: Web Form Testing
 
+![as2](https://github.com/user-attachments/assets/bf5c5ec5-62ab-496f-8a8d-310f74b55359)
+
 ## Overview
 This project automates two web forms using Selenium and JUnit.
 ### Web Forms 
